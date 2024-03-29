@@ -20,9 +20,9 @@
         <header>
             <nav>
                 <div>
-                    <h1 id="logo">
+                    <a id="logo-a" href="/"><h1 id="logo">
                         {{page.header | default: "Cassian's Log"}}
-                    </h1>
+                    </h1></a>
                     {% if page.header == null -%}
                         <strong>{{page.title}}</strong>
                     {% endif -%}

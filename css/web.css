@@ -245,3 +245,7 @@ main#post section {
     margin-bottom: 0;
     margin-top: 0;
 }
+
+#logo-a {
+    text-decoration: none;
+}
