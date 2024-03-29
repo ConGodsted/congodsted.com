@@ -21,7 +21,8 @@
             <nav>
                 <div>
                     <a id="logo-a" href="/"><h1 id="logo">
-                        {{page.header | default: "Cassian's Log"}}
+                        {{page.header | default: "Cassian's Log"}}                <span class="print-only">- Web Development Professional</span>
+
                     </h1></a>
                     {% if page.header == null -%}
                         <strong>{{page.title}}</strong>

@@ -7,24 +7,34 @@ header {
     margin-bottom: 10px;
 }
 
-h3, #resume h2, ul {
+h3, ul {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
 
-.resume-two #one {
-    width: 60%;
-}
-.resume-two #two {
-    width: 40%;
+#resume h2 {
+    margin-bottom: .2em !important;
 }
 
-#skills li {
+#skills li, #contact li {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
+
 #resume {
     width: 75%;
     margin: auto;
+}
+
+h3.title {
+    font-size: 1.5em;
+}
+
+.print-only {
+    display: none;
+}
+
+#resume h2 {
+    font-size: 1.75em;
 }

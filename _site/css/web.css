@@ -147,7 +147,7 @@ main, body {
 }
 
 
-#logo {
+#logo, header span {
     font-family: 'Bebas Neue';
     margin-top: 0;
     margin-bottom: 0;
@@ -248,4 +248,13 @@ main#post section {
 
 #logo-a {
     text-decoration: none;
+}
+
+#resume .year {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#resume {
+    padding-bottom: 1em;
 }
