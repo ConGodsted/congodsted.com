@@ -1,0 +1,61 @@
+#sitemap, footer {
+    display: none;
+}
+
+header {
+    border-bottom-color: black;
+}
+
+:root {
+    --white: black;
+}
+
+.link {
+    color: var(--white) !important;
+}
+
+p, li, h3, em {
+    font-size: .8em;
+}
+
+h2 {
+    font-size: 1em;
+    border-bottom: #8d8d8d solid 2px !important;
+}
+
+hr {
+    border-color: #8d8d8d;
+}
+
+#logo {
+    font-size: 35px;
+}
+
+#logo::after {
+    content: " - Web development professional"
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+h3, #resume h2, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.resume-two #one {
+    width: 60%;
+}
+.resume-two #two {
+    width: 40%;
+}
+
+#skills li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#resume {
+    width: unset !important;
+}

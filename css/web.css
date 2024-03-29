@@ -57,10 +57,6 @@ header {
     border-bottom: var(--ca-red) 5px solid;
 }
 
-header strong {
-    color: var(--white)
-}
-
 nav { 
     text-align: center;
     align-self: flex-end;
@@ -90,10 +86,10 @@ footer {
     padding-left: 5px;
     padding-right: 5px;
 }
-#social a, #copy, .item p, #index, .false-button, h1, h2, p  {
+#social a, #copy, .item p, #index, .false-button, h1, h2, h3, em, p, li, header strong  {
     color: var(--white);
 }
-p a:link, p a:visited {
+p a:link, p a:visited, .link {
     color: var(--body-link)
 }
 
@@ -227,4 +223,25 @@ main#post section {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.resume-two {
+    display: flex;
+}
+
+.resume-two :first-of-type {
+    margin-right: .5em;
+
+}
+
+.resume-two #one {
+    width: 70%;
+}
+.resume-two #two {
+    width: 30%;
+}
+
+#resume p {
+    margin-bottom: 0;
+    margin-top: 0;
 }

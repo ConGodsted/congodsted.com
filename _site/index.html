@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="/css/mobile.css" media="(width < 670px)">
         <link rel="stylesheet" href="/css/desktop.css" media="(width > 671px)">
         <link rel="stylesheet" href="/css/glide.core.min.css">
+        <link rel="stylesheet" href="/css/print.css" media="print">
         <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
         <link rel="alternate" type="application/rss+xml" href="https://cassian.cc/feed.xml">
 
@@ -25,10 +26,9 @@
                     </div>
                 <div id="sitemap">
                     <a href="/">Portfolio</a>
+                    <a href="/resume">Resume</a>
                     <a href="/blog">Blog</a>
                     <a href="mailto:cassian@godsted.com">Contact</a>
-
-
                 </div>
             </nav>
         </header>
@@ -56,7 +56,7 @@
                  the website for the Carnegie, a local theater in Covington, KY.
             </p>
             <p>
-                My biggest contribution to INTERalliance is the new versions of INTERalliance.org and TechOlympics.org. 
+                My biggest contribution to INTERalliance is the new versions of <a href="https://interalliance.org">INTERalliance.org</a> and <a href="https://techolympics.org">TechOlympics.org</a>, as well as the  website for <a href="https://wiitcincy.interalliance.org">WiIT Cincy</a>. 
                 They're powered by GitHub Pages, make use of Jekyll for dynamic data, and are automatically backed up in case of emergency. 
                 While not as initially user friendly as the former Wordpress and Elementor powered sites, they allow new ILC members to learn 
                 the foundations of HTML and CSS in a safe and backed up environment.
@@ -135,6 +135,28 @@
                             <div class="itemflex">
                                 <a class="false-button" target="_blank" href="https://wiki-races.interalliance.org">Visit Site</a>
                                 <a class="false-button" target="_blank" href="https://web.archive.org/web/20210404012152/https://wiki-races.interalliance.org/wiki-races/">Visit Pre-Redesign</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="item wordpress">
+                            <img src="/images/wiit.webp" alt="Preview of the website for WiIT Cincy">
+                            <div class="itemflex">
+                                <h3>WiIT Cincy</h3> 
+                            </div>
+                            <p onclick="openCollapsible(this)">Maintained and later rebuilt the website for the Women in IT Conference from scratch.</p>
+                            <strong class="read-more" onclick="openCollapsible(this.previousElementSibling)">read more...</strong>
+                            <div class="drop-div">
+                                <p>In 2024, I rebuilt this site from scratch, replacing the Weebly site with a more performant Jekyll-powered GitHub Pages site.</p>
+                                <p>WiIT Cincy's site is copyrighted by WiIT Cincy, and I work on the site while employed at INTERalliance.</p>
+                            </div>
+                            <div class="itemflex">
+                                <span title="I was asked to work on WiIT Cincy site in January of 2024, and continue to maintain it." class="false-button">2024-Ongoing</span>
+                                <span title="Website was designed using Jekyll and deployed to GitHub Pages" class="false-button">Jekyll Site</span>
+                            </div>
+                            <div class="itemflex">
+                                <a class="false-button" target="_blank" href="https://wiitcincy.interalliance.org">Visit Site</a>
+                                <a class="false-button" target="_blank" href="https://web.archive.org/web/20230205051412/https://wiitcincy.weebly.com/">Visit Pre-Redesign</a>
                             </div>
                         </div>
                     </li>
@@ -319,7 +341,7 @@
             <p>
                 I've also been developing Minecraft modpacks since December of 2020. Recently, I started sharing them on Modrinth,
                 a Minecraft mod sharing site. The packs themselves are developed using Packwiz, and any custom mods are developed in
-                Java and JavaScript through KubeJS/Rhino (a JavaScript to Java interperter).
+                Java and JavaScript.
             </p>
             <p>
                 These packs take a ton of development time. Between mod licensing, compatibility testing, configuration, 
@@ -330,6 +352,11 @@
                 <a href="https://modrinth.com/modpack/simply-infinite/" target="_blank">Simply Infinite</a> is the only modpack for Minecraft
                 20w14infinite, an experimental fork of the main game that adds randomly generated dimensions. Five of the mods in the pack were
                 ported by myself.
+            </p>
+            <p>
+                <a href="https://modrinth.com/modpack/infinity-plus/" target="_blank">Infinity Plus</a> expands upon the features from
+                20w14infinite, porting the randomly generated dimensions to a modern, stable version of Minecraft, thanks to Lera Riemann's <a href="https://modrinth.com/mod/infinite-dimensions">Infinite Dimensions mod</a>,
+                which I contribute to.
             </p>
             <p>
                 <a href="https://modrinth.com/modpack/wf-origins-reforged" target="_blank">Wish Fulfillment: Origins Reforged</a> is the first

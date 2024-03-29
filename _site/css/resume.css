@@ -1,0 +1,30 @@
+
+h2 {
+    border-bottom: var(--white) solid 3px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+h3, #resume h2, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.resume-two #one {
+    width: 60%;
+}
+.resume-two #two {
+    width: 40%;
+}
+
+#skills li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#resume {
+    width: 75%;
+    margin: auto;
+}
