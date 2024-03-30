@@ -89,11 +89,11 @@ footer {
 #social a, #copy, .item p, #index, .false-button, h1, h2, h3, em, p, li, header strong  {
     color: var(--white);
 }
-p a:link, p a:visited, .link {
+p a:link, p a:visited, .link, #mkpage a {
     color: var(--body-link)
 }
 
-p a:hover, p a:focus, a:hover, #social a:hover, #social a:focus, a:focus, #sitemap a:hover {
+p a:hover, p a:focus, a:hover, #social a:hover, #social a:focus, a:focus, #sitemap a:hover, #mkpage a:hover {
     color: var(--ca-red);
 } 
 
@@ -144,6 +144,10 @@ footer {
 }
 main, body {
     background-color: #18181b;
+}
+
+main {
+    min-height: 70vh;
 }
 
 
@@ -225,20 +229,9 @@ main#post section {
     object-fit: cover;
 }
 
-.resume-two {
-    display: flex;
-}
-
-.resume-two :first-of-type {
-    margin-right: .5em;
-
-}
-
-.resume-two #one {
-    width: 70%;
-}
-.resume-two #two {
-    width: 30%;
+#mkpage {
+    width: 80%;
+    margin: auto;
 }
 
 #resume p {
@@ -257,4 +250,8 @@ main#post section {
 
 #resume {
     padding-bottom: 1em;
+}
+
+.print-only {
+    display: none;
 }

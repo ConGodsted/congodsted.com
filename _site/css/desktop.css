@@ -133,3 +133,19 @@ nav {
     margin-left: 3.5em;
     margin-right: 3.5em;
 }
+
+.resume-two {
+    display: flex;
+}
+
+.resume-two :first-of-type {
+    margin-right: .5em;
+
+}
+
+.resume-two #one {
+    width: 70%;
+}
+.resume-two #two {
+    width: 30%;
+}
