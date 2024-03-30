@@ -49,12 +49,15 @@
         </footer>
         <script src="/js/glide.js"></script>
         <script src="/js/index.js"></script>
-        {% if page.layout != "home" %}
+        {% if page.layout == "blog" %}
         <script>
             posts = document.querySelectorAll('.glide.post') 
             
             posts.forEach(function(element) {
-                new Glide(element).mount()
+                new Glide(element, {
+                    keyboard: false
+                }).mount()
+                
             })
 
         </script>
