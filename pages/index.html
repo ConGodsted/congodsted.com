@@ -265,7 +265,7 @@ permalink: /
             </p>
             <p>
                 With the help of Luke Trenaman, who I had previously worked with on the INTERalliance Website Redesign in 2022, we built
-                Tier Away in Summer of 2022. Tier Away is still in development, the sharing functions still need work, but at this point
+                Tier Away in Summer of 2022. Tier Away is still in development but at this point
                 it fulfills my needs for private tier list generation.
             </p>
             <p><a href="https://tieraway.godsted.com">Give it a try, if you're interested!</a> </p>
@@ -293,24 +293,46 @@ permalink: /
             </div>
         </section>
     </section>
-    <section id="mc-columns" class="two-columns">
+    <section id="jsrv-columns" class="two-columns">
         <section class="cards">
             <div class="item js">
-                <img src="/images/modrinth.webp" alt="Preview of my Modrinth page">
+                <img src="/images/justserve.webp" alt="Preview of Just Serve">
                 <div class="itemflex">
-                    <h3>Minecraft Modpacks</h3>
+                    <h3>JustServe</h3>
                 </div>
-                <p>In my free time, I develop Minecraft modpacks to play with friends. They're all available on Modrinth, a Minecraft modding site.</p>
+                <p onclick="openCollapsible(this)">JustServe is a simple, open source, self hosted digital signage tool. No accounts, no public data, no prep work, no hassle. </p>
+                <strong class="read-more" onclick="openCollapsible(this.previousElementSibling)">read more...</strong>
+                <div class="drop-div">
+                    <p>JustServe was created as a hobbyist project to resolve a seeming lack of self hosted digital signage solutions. Not everything needs to be uploaded to the cloud.</p>
+                    <p>JustServe was designed by Cassian Godsted.</p>
+
+                </div>
                 <div class="itemflex">
-                    <span title="I picked up modding in December 2020, and still actively develop packs." class="false-button">2020-Ongoing</span>
-                    <span class="false-button" title="These projects are developed with Packwiz, and release on Modrinth.">Packwiz</span>
+                    <span title="This project started development April 3, 2024, and is still being actively developed." class="false-button">2024-Ongoing</span>
+                    <span class="false-button" title="This project was designed with NodeJS.">NodeJS</span>
                 </div>
                 <div class="itemflex">
-                    <a class="false-button" target="_blank" href="https://modrinth.com/user/Cassian" title="Try the packs on Modrinth">Download from Modrinth</a>
-                </div>
+                    <a class="false-button" target="_blank" href="https://github.com/cassiancc/JustServe" title="View on GitHub">Visit Site</a>                    </div>
                 
             </div>
         </section>
+        <div class="description">
+            <p>
+                In 2024, I began to work on a digital signage app called JustServe. JustServe is designed to be a simple and reliable digital signage solution that
+                allows for a self-hosted server to show content on multiple connected clients.
+            </p>
+            <p>
+                The server can be self-hosted on any Linux machine with NodeJS, and all a client needs to connect is a web browser (with WebSocket support). 
+                This solution is ideal for conferences that want greater control over their digital signage without needing to pay for a cloud solution.
+            </p>
+            <p>
+                JustServe is still in active alpha development, so its not ready for production use.
+            </p>
+            <p><a href="https://github.com/cassiancc/JustServe">If you'd like to use it, the code is available on GitHub.</a> </p>
+        </div>
+    </section>
+    <section id="mc-columns" class="two-columns">
+        
         <div class="description">
             <p>
                 I've also been developing Minecraft modpacks since December of 2020. Recently, I started sharing them on Modrinth,
@@ -339,6 +361,23 @@ permalink: /
             </p>
             <p><a href="https://modrinth.com/user/Cassian">If you play Minecraft, give one a try!</a> </p>
         </div>
+        <section class="cards">
+            <div class="item js">
+                <img src="/images/modrinth.webp" alt="Preview of my Modrinth page">
+                <div class="itemflex">
+                    <h3>Minecraft Modpacks</h3>
+                </div>
+                <p>In my free time, I develop Minecraft modpacks to play with friends. They're all available on Modrinth, a Minecraft modding site.</p>
+                <div class="itemflex">
+                    <span title="I picked up modding in December 2020, and still actively develop packs." class="false-button">2020-Ongoing</span>
+                    <span class="false-button" title="These projects are developed with Packwiz, and release on Modrinth.">Packwiz</span>
+                </div>
+                <div class="itemflex">
+                    <a class="false-button" target="_blank" href="https://modrinth.com/user/Cassian" title="Try the packs on Modrinth">Download from Modrinth</a>
+                </div>
+                
+            </div>
+        </section>
     </section>
     <h2>Connect</h2>
     <section class="description" style="margin-bottom: 2em;">
