@@ -2,7 +2,7 @@
 layout: mkpage
 header: Cassian Godsted
 title: Contact
-permalink: /contact
+permalink: /contact/
 ---
 
 
