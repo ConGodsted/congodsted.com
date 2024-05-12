@@ -1,4 +1,6 @@
 # cassian.cc
+<img alt="jekyll" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/built-with/jekyll_vector.svg">
+
 cassian.cc acts as a personal portfolio page.
 
 # Libraries
