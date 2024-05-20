@@ -110,3 +110,12 @@ nav {
 .two-columns {
     width: 100%;
 }
+
+#hi-img {
+    width: 80%;
+    margin: auto;
+}
+
+#intro {
+padding: 1em;
+}

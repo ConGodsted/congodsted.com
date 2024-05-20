@@ -32,6 +32,11 @@ nav {
     margin-left: auto;
 }
 
+#hi-img {
+    width: 50%;
+    padding: 3em;
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
