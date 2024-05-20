@@ -1,5 +1,7 @@
 # cassian.cc
-cassian.cc acts as a personal portfolio page, now containing a newly personal blog - powered by Jekyll.
+<img alt="jekyll" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/built-with/jekyll_vector.svg">
+
+cassian.cc acts as a personal portfolio page.
 
 # Libraries
 GlideJS by Jędrzej Chałubek, licensed under the terms of the MIT License: https://glidejs.com

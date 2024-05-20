@@ -26,7 +26,8 @@ nav {
 }
 
 #hi {
-    max-width: 1400px;
+    padding: 2em;
+    padding-top: 3em;
     margin-right: auto;
     margin-left: auto;
 }

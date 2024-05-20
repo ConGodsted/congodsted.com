@@ -255,3 +255,8 @@ main#post section {
 .print-only {
     display: none;
 }
+
+#hi-img {
+    width: 50%;
+    padding: 3em;
+}
