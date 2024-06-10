@@ -5,8 +5,8 @@
     <description>Cassian Godsted - Personal portfolio and project site</description>
     <link>https://cassian.cc/</link>
     <atom:link href="https://cassian.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 May 2024 14:13:48 -0400</pubDate>
-    <lastBuildDate>Mon, 20 May 2024 14:13:48 -0400</lastBuildDate>
+    <pubDate>Mon, 10 Jun 2024 11:36:25 -0400</pubDate>
+    <lastBuildDate>Mon, 10 Jun 2024 11:36:25 -0400</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
      
@@ -25,6 +25,29 @@
         <pubDate>Mon, 20 May 2024 00:00:00 -0400</pubDate>
         <link>https://cassian.cc/2024/05/20/event-insider.html</link>
         <guid isPermaLink="true">https://cassian.cc/2024/05/20/event-insider.html</guid>
+        
+        
+      </item>
+      
+    
+     
+      <item>
+        <title>Norse IoT: Robots, Pizza, and Power</title>
+        <description>&lt;p&gt;Norse IoT had the oportunity to listen to an amazing guest speaker from Duke Energy, and he brought his robots!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Norse IoT enjoyed pizza, robots, and internet of things this Wednesday. Duke Energy’s Steve Hinkel, Director of Advanced Technology Application, brought several robots in for a talk on robotics and IoT in the world of power generation. Steve, who describes himself as an automation engineer and roboticist, works in the Emerging Technology Office, where he supports Duke’s vision to become a national leader in sustainable energy generation and delivery by leveraging technology and innovation to produce clean, affordable, and reliable energy, while reducing environmental impact.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About Duke Energy:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Duke Energy, a Fortune 150 company employing 28,000 people, is one of America’s largest energy holding companies. Duke’s electric utilities serve 8.2 million customers in North Carolina, South Carolina, Florida, Indiana, Ohio and Kentucky.&lt;/p&gt;
+
+&lt;p&gt;Duke Energy is executing an aggressive clean energy transition to achieve its goals of net-zero methane emissions from its natural gas business by 2030 and net-zero carbon emissions from electricity generation by 2050. Duke’s interim carbon emission target at least a 50% reduction from electric generation by 2030, 50% for Scope 2 and certain Scope 3 upstream and downstream emissions by 2035, and 80% from electric generation by 2040.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Apr 2024 00:00:00 -0400</pubDate>
+        <link>https://cassian.cc/2024/04/10/iot-robots.html</link>
+        <guid isPermaLink="true">https://cassian.cc/2024/04/10/iot-robots.html</guid>
         
         
       </item>
