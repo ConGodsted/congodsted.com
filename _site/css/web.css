@@ -128,6 +128,11 @@ footer a {
 
 }
 
+.page-img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .page {
     text-align: center;
 }
