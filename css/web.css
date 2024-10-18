@@ -144,6 +144,10 @@ footer a {
     width: 50%;
 }
 
+.h-card {
+    display: none;
+}
+
 footer {
     background-color: black;
 }
