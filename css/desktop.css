@@ -27,14 +27,15 @@ nav {
 
 #hi {
     padding: 2em;
-    padding-top: 3em;
+    padding-top: 2em;
     margin-right: auto;
     margin-left: auto;
 }
 
 #hi-img {
-    width: 50%;
-    padding: 3em;
+    width: 37vw;
+    padding: 2em;
+    object-fit: contain;
 }
 
 .buttons {
