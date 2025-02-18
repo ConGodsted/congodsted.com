@@ -1,0 +1,28 @@
+<li class="glide__slide">
+    <div class="item">
+        <img src="{{include.image}}" alt="{{include.image-alt}}">
+        <div class="itemflex">
+            <h3>{{include.title}}</h3>
+        </div>
+        <p>
+            {% if include.details != undefined %}
+                <details>
+                    <summary>{{include.summary}}</summary>
+                    {{include.details}}
+                </details>
+            {% else %}
+                {{include.summary}}
+            {% endif %}
+        </p>
+        <div class="itemflex">
+            <span class="false-button" title="{{include.year-info}}">{{include.year}}</span>
+            <span class="false-button" title="{{include.type-info}}">{{include.type}}</span>
+        </div>
+        <div class="itemflex">
+            <a class="false-button" target="_blank" href="{{include.button-1-link}}">{{include.button-1-text}}</a>
+            {% if include.button-2-text != undefined %}
+                <a class="false-button" target="_blank" href="{{include.button-2-link}}">{{include.button-2-text}}</a>
+            {% endif %}
+        </div>
+    </div>
+</li>

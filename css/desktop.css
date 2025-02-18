@@ -14,7 +14,7 @@ nav {
 }
 
 #logo {
-    font-size: 70px;
+    font-size: 3em;
 }
 
 #index h2 {
@@ -30,6 +30,10 @@ nav {
     padding-top: 2em;
     margin-right: auto;
     margin-left: auto;
+}
+
+#contributions {
+    padding-top: 2em;
 }
 
 #hi-img {
@@ -156,3 +160,12 @@ nav {
 .resume-two #two {
     width: 30%;
 }
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    #sitemap a {
+      font-size: 25px;
+    }
+  }

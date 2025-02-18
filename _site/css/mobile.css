@@ -127,3 +127,11 @@ nav {
 #intro {
 padding: 1em;
 }
+
+.flex {
+    flex-direction: column;
+}
+
+#contributions strong {
+    text-align: left;
+}
