@@ -1,0 +1,43 @@
+
+---
+---
+
+/*
+Copyright 2025 Cassian Godsted. All rights reserved.
+*/
+
+h2 {
+    border-bottom: var(--white) solid 3px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+h3, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#resume h2 {
+    margin-bottom: .2em !important;
+}
+
+#skills li, #contact li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#resume {
+    width: 75%;
+    margin: auto;
+}
+
+h3.title {
+    font-size: 1.5em;
+}
+
+#resume h2 {
+    font-size: 1.75em;
+}

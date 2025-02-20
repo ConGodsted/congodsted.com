@@ -1,0 +1,295 @@
+---
+---
+
+/*
+Copyright 2024 Cassian Godsted. All rights reserved.
+*/
+/*FONT CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Bebas+Neue&display=swap');
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 100,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --buttonbg: #222222;
+    --border: #393939;
+    --ca-red: #d22d59;
+    --body-link: #ffcdda;
+}
+
+.flex {
+    display: flex;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    padding: 0px;
+}
+a.false-button {
+    border: 1px solid var(--border);
+    background: var(--buttonbg);
+
+}
+
+.false-button {
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+a.false-button:hover {
+    background-color: #2b2b2b;
+    border-color: var(--ca-red);
+}
+
+header {
+    display:flex;
+    background-color: var(--black);
+    align-items: center;
+    justify-content: center;
+    border-bottom: var(--ca-red) 5px solid;
+}
+
+nav { 
+    text-align: center;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav a {
+    padding: 20px 0 0px 0;
+}
+
+body {
+    margin: 0;
+}
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: var(--black) 10px solid;
+    border-bottom: var(--black) 10px solid;
+    text-align: center;
+    position: bottom;
+    bottom:0;
+    width: 100%;
+}
+#social a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#social a, #copy, .item p, #index, .false-button, h1, h2, h3, em, p, li, header strong, #contributions a  {
+    color: var(--white);
+}
+p a:link, p a:visited, .link, #mkpage a {
+    color: var(--body-link)
+}
+
+p a:hover, #contributions a:hover, p a:focus, a:hover, #social a:hover, #social a:focus, a:focus, #sitemap a:hover, #mkpage a:hover {
+    color: var(--ca-red);
+} 
+
+
+footer a {
+    margin: 10px;
+}
+
+.old {
+    color: black;
+}
+
+.item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0%;
+    background-color: #1f1f1f;
+    filter: drop-shadow(0px 0px 15px rgba(49, 49, 49, 0.295));
+
+}
+
+.item {
+    border: 5px solid #393939;
+
+}
+
+.item:hover, .item:focus, .post:hover:not(.page) {
+    border: 5px solid var(--ca-red);
+    filter: drop-shadow(0px 0px 15px var(--ca-red));
+
+}
+
+.page-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.page {
+    text-align: center;
+}
+
+#gallery {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 50%;
+}
+
+.h-card {
+    display: none;
+}
+
+footer {
+    background-color: black;
+}
+main, body {
+    background-color: #18181b;
+}
+
+main {
+    min-height: 70vh;
+}
+
+
+#logo, header span {
+    font-family: 'Bebas Neue';
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: normal;
+    color: var(--white);
+}
+
+
+#sitemap a {
+    color: var(--white);
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Bebas Neue';
+    border-radius: 10px;
+}
+
+main#post {
+    display: flex;
+}
+
+main#post section {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.drop-div {
+    display: none;
+    overflow: hidden;
+    transition: display 2s;
+}
+.item p {
+    margin-bottom: 0;
+}
+
+.read-more {
+    text-align: right;
+    display: block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--body-link);
+}
+.item h3 {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item:hover, .post:hover {
+    transition: filter .5s;
+}
+.itemflex {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.year-box {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#mkpage {
+    width: 80%;
+    margin: auto;
+}
+
+#resume p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#logo-a {
+    text-decoration: none;
+}
+
+#resume .year {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#resume {
+    padding-bottom: 1em;
+}
+
+.print-only {
+    display: none;
+}
+
+
+
+#contributions-inner {
+    padding: 2em;
+    padding-top: 1em;
+    background-color: var(--black);
+    border: solid 3px var(--ca-red);
+}
+
+#contributions span {
+    color: gray;
+    display: block;
+}
+
+#contributions strong {
+    font-size: 2em;
+}
+
+#contributions h3 {
+    margin-bottom: 0;
+}

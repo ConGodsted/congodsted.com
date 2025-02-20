@@ -1,0 +1,73 @@
+---
+---
+
+#sitemap, footer, .web-only {
+    display: none;
+}
+
+header {
+    border-bottom: black 3px solid;
+}
+
+:root {
+    --white: black;
+}
+
+.link {
+    color: var(--white) !important;
+}
+
+p, li, h3, em {
+    font-size: .8em;
+}
+
+h2 {
+    font-size: 1.1em !important;
+    border-bottom: #8d8d8d solid 2px !important;
+}
+
+hr {
+    border-color: #8d8d8d;
+}
+
+#logo, header span {
+    font-size: 36px;
+}
+header {
+    margin-bottom: 10px;
+}
+
+h3, #resume h2, ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.resume-two #one {
+    width: 60%;
+}
+.resume-two #two {
+    width: 40%;
+}
+
+
+#resume {
+    width: unset !important;
+}
+
+h3.title {
+    font-size: 1em !important;
+}
+
+.print-only {
+    display: inline !important;
+}
+
+#resume {
+    padding-bottom: 0;
+}
+
+nav {
+    justify-content: center;
+    margin-top: 2.5px !important;
+    margin-bottom: 2.5px !important;
+}
