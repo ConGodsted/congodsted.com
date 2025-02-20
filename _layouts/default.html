@@ -4,7 +4,13 @@
         <title>Cassian Godsted - {{page.title}}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Cassian Godsted is a web developer based out of the Cincinnati area. This portfolio page contains their latest projects.">
+        <meta name="description" content="
+        {%- if page.excerpt == undefined -%}
+            Cassian Godsted is a web developer based out of the Cincinnati area. This portfolio page contains their latest projects.
+        {%- else -%}
+            {{page.excerpt | strip_html | strip }}
+        {%- endif -%}
+        ">
         <meta name="theme-color" content="#18181B">
         <link rel="shortcut icon" type="image/png" href="/favicon.png">
         <link rel="stylesheet" href="/css/web.css">
