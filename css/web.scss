@@ -293,3 +293,7 @@ main#post section {
 #contributions h3 {
     margin-bottom: 0;
 }
+
+#post #body img, #post #body video {
+    max-width: min(100%, 600px);
+}
